@@ -1,11 +1,11 @@
 import * as React from 'react';
 import './App.css';
-import Header from './Header';
-import Employees from './Employees';
-import Footer from './Footer';
-import GroupedTeamMembers from './GroupedTeamMembers';
-import Nav from './Navbar';
-import NotFound from './NotFound';
+import Header from './components/Header';
+import Employees from './components/Employees';
+import Footer from './components/Footer';
+import GroupedTeamMembers from './components/GroupedTeamMembers';
+import Nav from './components/Navbar';
+import NotFound from './components/NotFound';
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 

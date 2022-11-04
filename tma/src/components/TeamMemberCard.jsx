@@ -1,5 +1,5 @@
-import femaleProfile from './images/femaleProfile.jpg';
-import maleProfile from './images/maleProfile.jpg';
+import femaleProfile from '../images/femaleProfile.jpg';
+import maleProfile from '../images/maleProfile.jpg';
 
 const TeamMemberCard = ({ employee, handleEmployeeCardClick, selectedTeam }) =>
 {
